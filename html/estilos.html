@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos</title>
+    <style>
+        p{
+            color:blue 
+            /* !important; */
+        }
+        .miClase{
+            color: aqua ;
+        }
+        #miId{
+            color: blueviolet;
+        }
+        p span{
+            color: red;
+        }
+        h2{
+            color: green;
+        }
+        h1+h2 {
+            color :brown;
+        }
+        p>a{
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <p style="color: darkgreen;">Soy un parrafo</p>
+    <p class="miClase">Soy un parrafo x2</p>
+    <p id="miId">Soy un parrafo x3</p>
+    <p>
+        <span>Hola</span>
+        <a href="">Link</a>
+    </p>
+    <h1>Titulo 1</h1>
+    <h2>Titulo2</h2>
+    <h2>Titulo3</h2>
+    <p><a>Link 1</a></p>
+    <p><span><a>Link 2</a></span></p>
+</body>
+</html>
